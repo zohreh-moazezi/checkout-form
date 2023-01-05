@@ -1,0 +1,32 @@
+
+.logo img{
+    width: 70px;
+    height: 50px;
+}
+.form{
+    margin-left: 160px;
+}
+.org{
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 600px){
+    .org{
+        flex-direction: column;
+    }
+    .form{
+        margin-left: 0;
+    }
+    .country{
+        flex-direction: column;
+    }
+    .cardname{
+        flex-direction: column;
+    }
+    .exp{
+        flex-direction: column;
+    }
+    .credit{
+        margin-top: 10px;
+    }
+}
